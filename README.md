@@ -1,4 +1,4 @@
-# Edavidaja Rstudio-pro
+# rstudio-pro
 
 ## How do I install these formulae?
 
