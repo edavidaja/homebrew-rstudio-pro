@@ -2,7 +2,7 @@ cask "rstudio-pro-daily" do
   version :latest
   sha256 :no_check
 
-  url "https://rstudio.org/download/latest/daily/desktop/mac/RStudio-latest.dmg",
+  url "https://rstudio.org/download/latest/daily/desktop/mac/RStudio-latest.dmg"
   name "RStudio Pro"
   desc "RStudio is an integrated development environment (IDE) for R."
   homepage "https://www.rstudio.com/"
