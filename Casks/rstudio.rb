@@ -2,7 +2,7 @@ cask "rstudio" do
   version :latest
   sha256 :no_check
 
-  url "https://rstudio.org/download/latest/daily/desktop/mac/RStudio-latest.dmg",
+  url "https://rstudio.org/download/latest/daily/desktop/mac/RStudio-pro-latest.dmg",
       verified: "https://rstudio.org/"
   name "RStudio Pro"
   desc "Integrated development environment for R"
