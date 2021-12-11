@@ -3,9 +3,9 @@ cask "rstudio-pro-daily" do
   sha256 :no_check
 
   url "https://rstudio.org/download/latest/daily/desktop/mac/RStudio-latest.dmg",
-    verified: "https://rstudio.org/"
+      verified: "https://rstudio.org/"
   name "RStudio Pro"
-  desc "RStudio is an integrated development environment (IDE) for R."
+  desc "RStudio is an integrated development environment (IDE) for R"
   homepage "https://www.rstudio.com/"
 
   depends_on macos: ">= :high_sierra"
