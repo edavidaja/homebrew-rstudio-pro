@@ -5,11 +5,11 @@ cask "rstudio" do
   url "https://rstudio.org/download/latest/daily/desktop/mac/RStudio-latest.dmg",
       verified: "https://rstudio.org/"
   name "RStudio Pro"
-  desc "RStudio is an integrated development environment (IDE) for R"
+  desc "An integrated development environment for R"
   homepage "https://www.rstudio.com/"
 
-  depends_on macos: ">= :high_sierra"
   conflicts_with cask: "rstudio"
+  depends_on macos: ">= :high_sierra"
 
   app "RStudio.app"
 
