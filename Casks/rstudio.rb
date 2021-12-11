@@ -5,7 +5,7 @@ cask "rstudio" do
   url "https://rstudio.org/download/latest/daily/desktop/mac/RStudio-latest.dmg",
       verified: "https://rstudio.org/"
   name "RStudio Pro"
-  desc "An integrated development environment for R"
+  desc "Integrated development environment for R"
   homepage "https://www.rstudio.com/"
 
   conflicts_with cask: "rstudio"
