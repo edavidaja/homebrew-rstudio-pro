@@ -1,4 +1,4 @@
-cask "rstudio-pro-daily" do
+cask "rstudio" do
   version :latest
   sha256 :no_check
 
@@ -9,8 +9,9 @@ cask "rstudio-pro-daily" do
   homepage "https://www.rstudio.com/"
 
   depends_on macos: ">= :high_sierra"
+  conflicts_with cask: "rstudio"
 
-  app "RStudio Pro.app"
+  app "RStudio.app"
 
   zap trash: "~/.rstudio-desktop"
 
