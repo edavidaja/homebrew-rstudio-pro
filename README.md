@@ -1,11 +1,9 @@
 # rstudio-pro
 
-## How do I install these formulae?
+`brew install edavidaja/rstudio-pro/rstudio-pro`
 
-`brew install edavidaja/rstudio-pro/<formula>`
+Or `brew tap edavidaja/rstudio-pro` and then `brew install rstudio-pro`.
 
-Or `brew tap edavidaja/rstudio-pro` and then `brew install <formula>`.
+## update
 
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+brew upgrade rstudio-pro
